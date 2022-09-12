@@ -7,6 +7,8 @@ import Welcome from './components/Welcome';
 import AddUser from './components/Udemy.js/components/AddUsers';
 import Counter from './components/Counter';
 import Datafetching from './components/Datafetching';
+import FocuInput from './components/FocuInput';
+import CounterOne from './CounterOne';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
    {/* <NameList /> */}
    <AddUser />
    <Counter />
+   <FocuInput />
+   < CounterOne />
    <Datafetching />
     </div>
   );
